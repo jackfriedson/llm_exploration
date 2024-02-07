@@ -1,0 +1,18 @@
+[project]
+name = "llm_exploration"
+version = "0.1.0"
+requires-python = ">=3.12"
+
+dependencies = [
+    "datasets",
+    "evaluate",
+    "jupyter",
+    "mypy",
+    "torch",
+    "transformers",
+    "ruff",
+]
+
+[tool.ruff]
+select = ["E", "F", "W", "I"]
+line-length = 120
